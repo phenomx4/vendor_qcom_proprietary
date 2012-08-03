@@ -61,7 +61,7 @@ PRODUCT_COPY_FILES += \
     vendor/qcom/proprietary/system/lib/egl/libGLESv2S3D_adreno200.so:/system/lib/egl/libGLESv2S3D_adreno200.so \
     vendor/qcom/proprietary/system/lib/egl/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
     vendor/qcom/proprietary/system/lib/libC2D2.so:/system/lib/libC2D2.so \
-    vendor/qcom/proprietary/system/lib/lbc2d2_z180.so:/system/lib/libc2d2_z180.so \
+    vendor/qcom/proprietary/system/lib/libc2d2_z180.so:/system/lib/libc2d2_z180.so \
     vendor/qcom/proprietary/system/lib/libgsl.so:/system/lib/libgsl.so \
     vendor/qcom/proprietary/system/lib/libOpenVG.so:/system/lib/libOpenVG.so \
     vendor/qcom/proprietary/system/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so
