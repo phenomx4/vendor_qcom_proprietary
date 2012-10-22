@@ -23,8 +23,8 @@ PRODUCT_COPY_FILES += \
     vendor/qcom/proprietary/system/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/qcom/proprietary/system/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/qcom/proprietary/system/lib/libmmparser.so:system/lib/libmmparser.so \
-    vendor/qcom/proprietary/system/lib/libdivxdrm.so:system/lib/libdivxdrm.so \
-    vendor/qcom/proprietary/system/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
+    vendor/qcom/proprietary/system/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
+    vendor/qcom/proprietary/system/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
     vendor/qcom/proprietary/system/lib/libqc-opt.so:system/lib/libqc-opt.so
 
 # All the blobs necessary for adreno
@@ -47,6 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/qcom/proprietary/system/lib/egl/libGLESv2S3D_adreno200.so:/system/lib/egl/libGLESv2S3D_adreno200.so \
     vendor/qcom/proprietary/system/lib/egl/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
     vendor/qcom/proprietary/system/lib/libC2D2.so:/system/lib/libC2D2.so \
+    vendor/qcom/proprietary/system/lib/libc2d2_z180.so:/system/lib/libc2d2_z180.so \
     vendor/qcom/proprietary/system/lib/libgsl.so:/system/lib/libgsl.so \
     vendor/qcom/proprietary/system/lib/libOpenVG.so:/system/lib/libOpenVG.so \
     vendor/qcom/proprietary/system/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so
